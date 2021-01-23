@@ -1,0 +1,9 @@
+.menu-categories-section{
+    height:79vh;
+    overflow-y: scroll;
+    
+}
+.menu-categories-section .card{
+    margin-top:20px
+}
+

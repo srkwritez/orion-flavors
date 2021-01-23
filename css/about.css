@@ -1,0 +1,21 @@
+.about-us-marketing-text{
+    margin-top: 30px!important;
+    margin-bottom: 60px!important;
+}
+
+.about-us-hero-banner-section{
+    min-height:79vh;
+}
+
+.testimonial-section{
+    margin-bottom: 10%;
+
+}
+.testimonail-image{
+    width: 100%;
+    border-radius: 49%;
+}
+.testimonial-quote{
+    margin-top: 25%;
+    font-weight: bolder;
+}
