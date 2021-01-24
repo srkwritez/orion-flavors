@@ -1,0 +1,15 @@
+{{#each items}}
+      <div class="row product-row">
+        <div class="image-col">
+         <img src="./assets/dishes/{{code}}.jpg" width="100%" alt="" srcset="">
+        </div>
+        <div class="col-description">
+          <p class="dish-name">{{name}}</p>
+          <p class="dish-price">{{currencySymbol}}{{totalPrice}}</p>
+          <p class="qty">QTY: {{quantity}}</p>      
+        </div>
+        <div class="col-remove">
+         <button type="button" class="btn btn-danger btn-circle btn-sm" onclick="remove({{code}})">X</button> 
+        </div>
+      </div>
+{{/each}}

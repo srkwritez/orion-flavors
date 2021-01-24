@@ -116,6 +116,13 @@ body{
     border-color: #D82D2D !important;
     letter-spacing:1.5px
         }
+a.btn-primary:focus{
+            background-color: #df2e3f !important;
+            border-color: #D82D2D !important;
+            letter-spacing:1.5px;
+            outline-color: #df2e3f !important;
+            box-shadow:0 0 0 0 #df2e3f !important
+}
 
 .orion-accordion-menu .card-header{
     background-color: #D82D2D;
@@ -123,6 +130,69 @@ body{
 .orion-accordion-menu .card-header h5 .btn{
     color: #fff;
 }
+
+.cart-overlay{
+    width:30%;
+    position: fixed;
+    right:0;
+    top:0px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    overflow-y: scroll;
+    display: none;
+}
+.cart-header{
+    background-color: #D82D2D;
+    color:#fff;
+    padding:10px
+}
+.heading-subheading-2 .heading{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+.cart-overlay .container-fluid, .cart-overlay .col-sm-4{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.cart-overlay .product-row{
+   
+    border-bottom: 1px solid #424242;
+    margin:10px 0px 10px 0px !important;
+}
+
+
+.image-col{
+    width: 40%;
+    padding:10px;
+}
+.col-description {
+    padding:10px;
+    width: 50%;
+}
+.col-description p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ .remove-btn{
+   margin-top: 40px
+}
+
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 4px 0px; 
+    border-radius: 15px; 
+    font-size: 10px; 
+    text-align: center; 
+    margin-top: 40px;
+    background-color: #424242;
+    color:#fff
+} 
+
+
 
 
 
@@ -156,6 +226,12 @@ body{
       margin: 2px;
       }
   }
+  @media screen and (min-width: 625px) and (max-width:1024px){
+    .cart-overlay{
+        width:50%;
+        display: none;
+    }
+  }
 
   @media screen and (max-width: 625px){
     .card{
@@ -174,5 +250,9 @@ body{
         font-size: 24px;
         display: block;
         line-height: 1.5;
+    }
+    .cart-overlay{
+        width:80%;
+        display: none;
     }
   }
