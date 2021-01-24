@@ -130,6 +130,9 @@ a.btn-primary:focus{
 .orion-accordion-menu .card-header h5 .btn{
     color: #fff;
 }
+.close{
+    color:#fff !important;
+}
 
 .cart-overlay{
     width:30%;
