@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 async function getBestSellers(){
-let menu = await $.get("/data/menu.json",function(response){
+let menu = await $.get("../data/menu.json",function(response){
     return response
 })
 let bestSellers = menu.items.filter(item=>item.isBestSeller==true)
