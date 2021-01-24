@@ -1,0 +1,126 @@
+{
+"items":[
+    {
+        "code":1,
+        "name":"Panzenella",
+        "description":"Italy's delicious dish with tuscan chopped salad of soaked stale bread, onions and tomatoes.",
+        "price":20.00,
+       "currencySymbol":"$",
+        "cusine":"italian",
+        "isChefSpecial":true,
+        "isBestSeller":true
+    },
+    {
+        "code":2,
+        "name":"Pasta Carbonara",
+        "description":"Pasta Carbonara is the ultimate cheesy dish that you would love to indulge in!",
+        "price":25.00,
+       "currencySymbol":"$",
+        "cusine":"italian",
+        "isChefSpecial":false,
+        "isBestSeller":false
+    },
+    {
+        "code":3,
+        "name":"Margherita Pizza",
+        "description":"Typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.",
+        "price":40.00,
+       "currencySymbol":"$",
+        "cusine":"italian",
+        "isChefSpecial":true,
+        "isBestSeller":false
+    },
+    {
+        "code":4,
+        "name":"Bruschetta",
+        "description":"At its best, bruschetta is light and crisp, covered in deep red tomatoes and full of fresh flavor",
+        "price":30.00,
+       "currencySymbol":"$",
+        "cusine":"italian",
+        "isChefSpecial":false,
+        "isBestSeller":false
+    },
+    {
+        "code":5,
+        "name":"Biriyani ",
+        "description":"Aromatic Indian rice dish made by cooking basmati rice with mix veggies, herbs & biryani spices",
+        "price":45.00,
+       "currencySymbol":"$",
+        "cusine":"indian",
+        "isChefSpecial":true,
+        "isBestSeller":true
+    },
+    {
+        "code":6,
+        "name":"Samosa",
+        "description":"Deep fried pastry with a spiced filling usually made with potatoes, spices and herbs",
+        "price":10.00,
+       "currencySymbol":"$",
+        "cusine":"indian",
+        "isChefSpecial":false,
+        "isBestSeller":false
+    },
+    {
+        "code":7,
+        "name":"Momo",
+        "description":"Steamed dumplings stuffed with a lightly spiced vegetable filling",
+        "price":30.00,
+       "currencySymbol":"$",
+        "cusine":"indian",
+        "isChefSpecial":false,
+        "isBestSeller":false
+    },
+    {
+        "code":8,
+        "name":"Kheer",
+        "description":"Mouth watering Indian rice pudding made with only three basic ingredients- rice, milk and sugar",
+        "price":25.00,
+       "currencySymbol":"$",
+        "cusine":"indian",
+        "isChefSpecial":true,
+        "isBestSeller":false
+    },
+    {
+        "code":9,
+        "name":"Tofu",
+        "description":"Chinese recipe with an interesting mix of lemon grass, shallots, red onion, chili paste, et al",
+        "price":45.00,
+       "currencySymbol":"$",
+        "cusine":"chinese",
+        "isChefSpecial":true,
+        "isBestSeller":false
+    },
+    {
+        "code":10,
+        "name":"Manchau soup",
+        "description":"An authentic Chinese Savour with spicy flavours of the vegetable manchow soup",
+        "price":10.00,
+       "currencySymbol":"$",
+        "cusine":"chinese",
+        "isChefSpecial":false,
+        "isBestSeller":true
+    },
+    {
+        "code":11,
+        "name":"Hakka Noodles",
+        "description":"Tossed with your favourite veggies like capsicum, carrot, spring onions and cabbage in the eclectic mix of sauces",
+        "price":30.00,
+       "currencySymbol":"$",
+        "cusine":"chinese",
+        "isChefSpecial":false,
+        "isBestSeller":false
+    },
+    {
+        "code":12,
+        "name":"Crunchy Iceberg Dumpling",
+        "description":"Pamper your taste buds with the fresh and juicy goodness of asparagus and corn kernels",
+        "price":25.00,
+        "currencySymbol":"$",
+        "cusine":"chinese",
+        "isChefSpecial":true,
+        "isBestSeller":true
+    }
+    
+]
+}
+

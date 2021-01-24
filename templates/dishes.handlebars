@@ -1,0 +1,13 @@
+{{#each items}}
+<div class="col-sm-3 col-md-6 col-lg-3">
+    <div class="card">
+        <img class="card-img-top" src="./assets/dishes/{{code}}.jpg" alt="{{name}}">
+        <div class="card-body">
+            <h5 class="card-title">{{name}}</h5>
+            <p class="card-text dish-short-description">{{description}}</p>
+            <p class="card-text dish-price">{{currencySymbol}}{{price}}</p>
+            <a href="#" class="btn btn-primary" onclick="add({{code}})">Add</a>
+        </div>
+    </div>
+</div>
+{{/each}}
